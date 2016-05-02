@@ -1,0 +1,37 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Read from data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+
+<div class="banner2" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path(flat.picture) %>');"></div>
+
+<div class="wrapper-main">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="profile-all">
+          <div class="profile-header text-center">
+            <%= image_tag flat.owner_picture, class: "img-circle avatar-xlarge" %>
+            <p><%= flat.first_name %></p>
+          </div>
+          <div class="profile-desc">
+            <h1><%= flat.summary %></h1>
+            <p><%= flat.city %></p>
+            <i class="fa fa-star" style="color: #ffb400"></i>
+            <i class="fa fa-star" style="color: #ffb400"></i>
+            <i class="fa fa-star" style="color: #ffb400"></i>
+            <i class="fa fa-star" style="color: #ffb400"></i>
+            <i class="fa fa-star" style="color: #ffb400"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+

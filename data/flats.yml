@@ -1,0 +1,36 @@
+seb:
+  owner_name: Sebastien Saunier
+  first_name: Sebastien
+  picture: card-paris.jpg
+  owner_picture: seb.jpeg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+romain:
+  owner_name: Romain Paillard
+  first_name: Romain
+  picture: card-london.jpeg
+  owner_picture: romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+anne:
+  owner_name: Anne Robinson
+  first_name: Anne
+  picture: card-brussels.jpeg
+  owner_picture: anne.jpeg
+  name: Anne's home
+  summary: Beautiful view of the city
+  city: Brussels, Belgium
+  wifi: true
+yohan:
+  owner_name: Yohan Belmin
+  first_name: Yohan
+  picture: card-newyork.jpg
+  owner_picture: yohan.png
+  name: Sunny bedroom
+  summary: Bright Bedroom with bathroom
+  city: Brooklyn, NY
+  wifi: true
