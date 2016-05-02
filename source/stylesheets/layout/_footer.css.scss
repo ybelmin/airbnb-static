@@ -1,7 +1,7 @@
 #footer {
-  background: #333333;
+  background: $gray-dark;
   padding: 30px 0;
-  color: #CCCCCC;
+  color: $gray-lighter;
   p {
     margin-top: 17px;
   }
@@ -9,12 +9,12 @@
     margin-top: 10px;
   }
   a {
-    color: #CCCCCC;
+    color: $gray-light;
     font-size: 30px;
     letter-spacing: 20px;
     transition: color 0.5s ease;
     &:hover {
-      color: yellow;
+      color: $yellow;
     }
   }
 }
