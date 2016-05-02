@@ -3,10 +3,14 @@
     <div class="row">
       <div class="col-xs-4">
         <ul class="list-inline">
-          <li><a href=""><i class="fa fa-youtube"></i></a></li>
-          <li><a href=""><i class="fa fa-instagram"></i></a></li>
-          <li><a href=""><i class="fa fa-facebook"></i></a></li>
-          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <% social = %w(youtube instagram facebook twitter) %>
+          <% social.each do |network| %>
+            <li>
+            <% link_to "#" do %>
+              <i class="fa fa-<%= network %>"></i>
+            <% end %>
+            </li>
+          <% end %>
         </ul>
       </div>
       <div class="col-xs-8 text-right">
